@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34408.163
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HtmlTask", "HtmlTask\HtmlTask.csproj", "{BB5CAB1D-7D99-46DF-A659-ECEFFD0FC1BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CssTextTask", "CssTextTask\CssTextTask.csproj", "{75763B39-B55B-4D1C-9A4C-CF43EE5AA8BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CssTableTask", "CssTableTask\CssTableTask.csproj", "{30EF000D-987D-40E4-A21A-8E1F0185C6F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CssFormTask", "CssFormTask\CssFormTask.csproj", "{89AB9006-C05E-4F23-B53E-163ED7BA24F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GabrielTask", "GabrielTask\GabrielTask.csproj", "{59CDBE84-3C99-47E3-B71D-C842EC04825B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArraysTask", "ArraysTask\ArraysTask.csproj", "{A2942544-8F17-46D1-97D7-3C422B6A7F09}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectsTask", "ObjectsTask\ObjectsTask.csproj", "{D4CEF323-7A8B-4826-855B-089D7965C2C9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BB5CAB1D-7D99-46DF-A659-ECEFFD0FC1BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB5CAB1D-7D99-46DF-A659-ECEFFD0FC1BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB5CAB1D-7D99-46DF-A659-ECEFFD0FC1BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB5CAB1D-7D99-46DF-A659-ECEFFD0FC1BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75763B39-B55B-4D1C-9A4C-CF43EE5AA8BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75763B39-B55B-4D1C-9A4C-CF43EE5AA8BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75763B39-B55B-4D1C-9A4C-CF43EE5AA8BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75763B39-B55B-4D1C-9A4C-CF43EE5AA8BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30EF000D-987D-40E4-A21A-8E1F0185C6F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30EF000D-987D-40E4-A21A-8E1F0185C6F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30EF000D-987D-40E4-A21A-8E1F0185C6F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30EF000D-987D-40E4-A21A-8E1F0185C6F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89AB9006-C05E-4F23-B53E-163ED7BA24F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89AB9006-C05E-4F23-B53E-163ED7BA24F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89AB9006-C05E-4F23-B53E-163ED7BA24F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89AB9006-C05E-4F23-B53E-163ED7BA24F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59CDBE84-3C99-47E3-B71D-C842EC04825B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59CDBE84-3C99-47E3-B71D-C842EC04825B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59CDBE84-3C99-47E3-B71D-C842EC04825B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59CDBE84-3C99-47E3-B71D-C842EC04825B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2942544-8F17-46D1-97D7-3C422B6A7F09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2942544-8F17-46D1-97D7-3C422B6A7F09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2942544-8F17-46D1-97D7-3C422B6A7F09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2942544-8F17-46D1-97D7-3C422B6A7F09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4CEF323-7A8B-4826-855B-089D7965C2C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4CEF323-7A8B-4826-855B-089D7965C2C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4CEF323-7A8B-4826-855B-089D7965C2C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4CEF323-7A8B-4826-855B-089D7965C2C9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B5084576-D326-4FDA-9534-684EDCE38B68}
+	EndGlobalSection
+EndGlobal
