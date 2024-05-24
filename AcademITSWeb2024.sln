@@ -17,6 +17,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArraysTask", "ArraysTask\Ar
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectsTask", "ObjectsTask\ObjectsTask.csproj", "{D4CEF323-7A8B-4826-855B-089D7965C2C9}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "trashcan", "trashcan", "{49C50457-E42C-4363-BA72-FC50B77293B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{394896D6-19EC-435B-9010-1E5E53D5DFAD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,9 +55,16 @@ Global
 		{D4CEF323-7A8B-4826-855B-089D7965C2C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D4CEF323-7A8B-4826-855B-089D7965C2C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D4CEF323-7A8B-4826-855B-089D7965C2C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{394896D6-19EC-435B-9010-1E5E53D5DFAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{394896D6-19EC-435B-9010-1E5E53D5DFAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{394896D6-19EC-435B-9010-1E5E53D5DFAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{394896D6-19EC-435B-9010-1E5E53D5DFAD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{394896D6-19EC-435B-9010-1E5E53D5DFAD} = {49C50457-E42C-4363-BA72-FC50B77293B2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B5084576-D326-4FDA-9534-684EDCE38B68}
