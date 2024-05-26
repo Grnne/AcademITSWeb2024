@@ -1,10 +1,89 @@
-﻿<!DOCTYPE html>
+﻿<!DOCTYPE HTML>
 <html>
 <head>
-    <meta charset="utf-8" />
-    <title></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Первая страница</title>
 </head>
 <body>
+    <h1>Заголовок первой страницы</h1>
+    <br />
+    <hr />
+    <br />
+    <form action="/second_page.html" method="post">
+        <p>
+            <label for="field1">Первое поле</label>
+            <input type="text" name="text1">
+        </p>
+        <p>
+            <label for="field2">Второе поле</label>
+            <input type="text" name="text2">
+        </p>
+        <label for="field3">Многострочное поле</label>
+        <p>
+            <textarea rows="4" cols="45" name="textArea1" placeholder="Подсказка"></textarea>
+        </p>
+        <p>
+            <h4>Чекбоксы</h4>
+        </p>
+        <p>
+            <label>
+                <input type="checkbox" name="checkBox1" value="1" />Чекбокс 1
+            </label>
+            <br />
+            <label>
+                <input type="checkbox" name="checkBox2" value="2" />Чекбокс 2
+            </label>
+            <br />
+            <label>
+                <input type="checkbox" name="checkBox3" value="3" />Чекбокс 3
+            </label>
+        </p>
 
+        <p>
+            <h4>Радиобаттоны</h4>
+        </p>
+        <label>
+            <input type="radio" checked="checked" name="radioBox" value="1" />Радиобаттон 1
+        </label>
+        <br />
+        <label>
+            <input type="radio" name="radioBox" value="2" />Радиобаттон 2
+        </label>
+        <br />
+        <label>
+            <input type="radio" name="radioBox" value="3" />Радиобаттон 3
+        </label>
+        <p>
+            <h4>Список с множественным выбором</h4>
+        </p>
+        <p>
+            <select size="3" multiple="multiple" name="list1[]">
+                <option disabled>Выберите поле</option>
+                <option value="field1">Поле 1</option>
+                <option selected value="field2">Поле 2</option>
+                <option value="field3">Поле 3</option>
+                <option value="field4">Поле 4</option>
+            </select>
+        </p>
+        <p>
+            <h4>Список с единичным выбором</h4>
+        </p>
+        <p>
+            <select size="3" name="list2[]">
+                <option disabled>Выберите поле</option>
+                <option value="field1">Поле 1</option>
+                <option selected value="field2">Поле 2</option>
+                <option value="field3">Поле 3</option>
+                <option value="field4">Поле 4</option>
+            </select>
+        </p>
+        <br />
+        <button type="submit">Отправить</button>
+    </form>
+    <br />
+    <hr />
+    <br />
+    <a href="second_page.html">Ссылка на вторую страницу</a>
+    <br />
 </body>
 </html>
