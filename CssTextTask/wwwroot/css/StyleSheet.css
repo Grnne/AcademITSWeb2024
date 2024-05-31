@@ -1,0 +1,37 @@
+﻿body {
+    box-sizing: border-box;
+    font-family: Arial;
+    color: dimgray;
+    font-size: 15px;
+    background-color: #feeed6;
+    text-indent: 15px;
+    padding: 0 0 0 15px;
+}
+
+h1 {
+    text-indent: 0;
+    font-size: 30px;
+    font-weight: lighter;
+    
+}
+
+.text-big-blue {
+    text-indent: 0;
+    color: #378db2;
+    font-weight: 700
+}
+
+.text-block {
+    width: 710px;
+    
+    line-height: 19px;
+}
+
+.prices-conditions {
+    font-size: 16px;
+    text-indent: 0;
+}
+
+.discounted-price {
+    text-decoration: line-through
+}

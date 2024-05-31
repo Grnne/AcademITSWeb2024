@@ -362,3 +362,8 @@ MigrationBackup/
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
 /WebApplication1/WebApplication1.csproj
+/BlazorApp1/BlazorApp1.csproj
+/mvc/mvc.csproj
+/testAspNetWebApp/testAspNetWebApp.csproj
+/WebApplication2/WebApplication2.csproj
+/WebApplication4/WebApplication4.csproj
