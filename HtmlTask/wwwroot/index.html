@@ -1,7 +1,7 @@
-﻿<!DOCTYPE HTML>
+﻿<!DOCTYPE html>
 <html>
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta charset="UTF-8">
     <title>Первая страница</title>
 </head>
 <body>
@@ -9,22 +9,20 @@
     <br />
     <hr />
     <br />
-    <form action="/second_page.html" method="post">
+    <form action="/second_page.html" method="get">
         <p>
-            <label for="field1">Первое поле</label>
-            <input type="text" name="text1">
+            <label for="text1">Первое поле</label>
+            <input id="text1" type="text" name="text1">
         </p>
         <p>
-            <label for="field2">Второе поле</label>
-            <input type="text" name="text2">
+            <label for="text2">Второе поле</label>
+            <input id="text2" type="text" name="text2">
         </p>
-        <label for="field3">Многострочное поле</label>
+        <label>Многострочное поле</label>
         <p>
             <textarea rows="4" cols="45" name="textArea1" placeholder="Подсказка"></textarea>
         </p>
-        <p>
-            <h4>Чекбоксы</h4>
-        </p>
+        <h4>Чекбоксы</h4>
         <p>
             <label>
                 <input type="checkbox" name="checkBox1" value="1" />Чекбокс 1
@@ -38,10 +36,7 @@
                 <input type="checkbox" name="checkBox3" value="3" />Чекбокс 3
             </label>
         </p>
-
-        <p>
-            <h4>Радиобаттоны</h4>
-        </p>
+        <h4>Радиобаттоны</h4>
         <label>
             <input type="radio" checked="checked" name="radioBox" value="1" />Радиобаттон 1
         </label>
@@ -53,9 +48,7 @@
         <label>
             <input type="radio" name="radioBox" value="3" />Радиобаттон 3
         </label>
-        <p>
-            <h4>Список с множественным выбором</h4>
-        </p>
+        <h4>Список с множественным выбором</h4>
         <p>
             <select size="3" multiple="multiple" name="list1[]">
                 <option disabled>Выберите поле</option>
@@ -65,9 +58,7 @@
                 <option value="field4">Поле 4</option>
             </select>
         </p>
-        <p>
-            <h4>Список с единичным выбором</h4>
-        </p>
+        <h4>Список с единичным выбором</h4>
         <p>
             <select size="3" name="list2[]">
                 <option disabled>Выберите поле</option>
