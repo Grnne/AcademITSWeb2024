@@ -3,23 +3,27 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34408.163
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HtmlTask", "HtmlTask\HtmlTask.csproj", "{BB5CAB1D-7D99-46DF-A659-ECEFFD0FC1BD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HtmlTask", "HtmlTask\HtmlTask.csproj", "{BB5CAB1D-7D99-46DF-A659-ECEFFD0FC1BD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CssTextTask", "CssTextTask\CssTextTask.csproj", "{75763B39-B55B-4D1C-9A4C-CF43EE5AA8BA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CssTextTask", "CssTextTask\CssTextTask.csproj", "{75763B39-B55B-4D1C-9A4C-CF43EE5AA8BA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CssTableTask", "CssTableTask\CssTableTask.csproj", "{30EF000D-987D-40E4-A21A-8E1F0185C6F5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CssTableTask", "CssTableTask\CssTableTask.csproj", "{30EF000D-987D-40E4-A21A-8E1F0185C6F5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CssFormTask", "CssFormTask\CssFormTask.csproj", "{89AB9006-C05E-4F23-B53E-163ED7BA24F4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CssFormTask", "CssFormTask\CssFormTask.csproj", "{89AB9006-C05E-4F23-B53E-163ED7BA24F4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GabrielTask", "GabrielTask\GabrielTask.csproj", "{59CDBE84-3C99-47E3-B71D-C842EC04825B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GabrielTask", "GabrielTask\GabrielTask.csproj", "{59CDBE84-3C99-47E3-B71D-C842EC04825B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArraysTask", "ArraysTask\ArraysTask.csproj", "{A2942544-8F17-46D1-97D7-3C422B6A7F09}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArraysTask", "ArraysTask\ArraysTask.csproj", "{A2942544-8F17-46D1-97D7-3C422B6A7F09}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectsTask", "ObjectsTask\ObjectsTask.csproj", "{D4CEF323-7A8B-4826-855B-089D7965C2C9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ObjectsTask", "ObjectsTask\ObjectsTask.csproj", "{D4CEF323-7A8B-4826-855B-089D7965C2C9}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "trashcan", "trashcan", "{49C50457-E42C-4363-BA72-FC50B77293B2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{394896D6-19EC-435B-9010-1E5E53D5DFAD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "testAspNetWebApp", "testAspNetWebApp\testAspNetWebApp.csproj", "{781D097D-694D-4138-BCE1-34B8AA4A5425}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorApp1", "BlazorApp1\BlazorApp1.csproj", "{E539C235-14DE-46D4-B98C-4680B3618066}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "mvc", "mvc\mvc.csproj", "{00AE722A-21FA-4457-88C6-EDFBBFD3CF43}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -55,16 +59,26 @@ Global
 		{D4CEF323-7A8B-4826-855B-089D7965C2C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D4CEF323-7A8B-4826-855B-089D7965C2C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D4CEF323-7A8B-4826-855B-089D7965C2C9}.Release|Any CPU.Build.0 = Release|Any CPU
-		{394896D6-19EC-435B-9010-1E5E53D5DFAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{394896D6-19EC-435B-9010-1E5E53D5DFAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{394896D6-19EC-435B-9010-1E5E53D5DFAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{394896D6-19EC-435B-9010-1E5E53D5DFAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{781D097D-694D-4138-BCE1-34B8AA4A5425}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{781D097D-694D-4138-BCE1-34B8AA4A5425}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{781D097D-694D-4138-BCE1-34B8AA4A5425}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{781D097D-694D-4138-BCE1-34B8AA4A5425}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E539C235-14DE-46D4-B98C-4680B3618066}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E539C235-14DE-46D4-B98C-4680B3618066}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E539C235-14DE-46D4-B98C-4680B3618066}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E539C235-14DE-46D4-B98C-4680B3618066}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00AE722A-21FA-4457-88C6-EDFBBFD3CF43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00AE722A-21FA-4457-88C6-EDFBBFD3CF43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00AE722A-21FA-4457-88C6-EDFBBFD3CF43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00AE722A-21FA-4457-88C6-EDFBBFD3CF43}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{394896D6-19EC-435B-9010-1E5E53D5DFAD} = {49C50457-E42C-4363-BA72-FC50B77293B2}
+		{781D097D-694D-4138-BCE1-34B8AA4A5425} = {49C50457-E42C-4363-BA72-FC50B77293B2}
+		{E539C235-14DE-46D4-B98C-4680B3618066} = {49C50457-E42C-4363-BA72-FC50B77293B2}
+		{00AE722A-21FA-4457-88C6-EDFBBFD3CF43} = {49C50457-E42C-4363-BA72-FC50B77293B2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B5084576-D326-4FDA-9534-684EDCE38B68}

@@ -367,3 +367,6 @@ FodyWeavers.xsd
 /testAspNetWebApp/testAspNetWebApp.csproj
 /WebApplication2/WebApplication2.csproj
 /WebApplication4/WebApplication4.csproj
+/BlazorApp1
+/mvc
+/testAspNetWebApp
