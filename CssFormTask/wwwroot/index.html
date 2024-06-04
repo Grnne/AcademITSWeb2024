@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Скриншот с формой</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link href="css/StyleSheet.css" rel="stylesheet" />
+    <link href="css/normalize.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="page-with-form">
+        <div class="form-title">
+            <h1>Отправить заявку</h1>
+        </div>
+        <div class="form-body">
+            <form action="/" method="post">
+                <p>
+                    <label for="name">Ваше имя</label>
+                    <input id="name" type="text" name="name" placeholder="Ваше имя *">
+                </p>
+                <p>
+                    <label for="phone-number">Ваш номер телефона</label>
+                    <input id="phone-number" type="text" name="phone-number" placeholder="Ваш номер телефона *">
+                </p>
+                <p>
+                    <label for="mail-vk">Ваш email или VK</label>
+                    <input id="mail-vk" type="text" name="mail-vk" placeholder="Ваш email или VK">
+                </p>
+                <p>
+                    <label for="comment">Комментарий</label>
+                    <textarea class="text-box" id="comment" type="text" name="comment" placeholder="Комментарий (не обязательно)"></textarea>
+                </p>
+                <p>
+                    Заполните и отправьте форму, и мы перезвоним Вам по указанному номеру
+                </p>
+                <button class="button-send" type="submit">Отправить заявку</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
