@@ -36,7 +36,8 @@
     width: 175px;
 }
 
-.table-body tr, td {
+
+.table-body :is(tr, td) {
     border: 1px solid #CECECE;
 }
 

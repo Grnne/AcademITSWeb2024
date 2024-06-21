@@ -1,37 +1,57 @@
-﻿body {
+﻿* {
     box-sizing: border-box;
-    font-family: Arial;
-    color: dimgray;
+}
+
+
+
+.main-container {
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
     font-size: 15px;
+    color: #676565;
     background-color: #feeed6;
-    text-indent: 15px;
-    padding: 0 0 0 15px;
+    max-width: 747px;
+    margin: 0 0 0 0;
+    padding: 10px 14px 10px 14px;
 }
 
-h1 {
-    text-indent: 0;
-    font-size: 30px;
-    font-weight: lighter;
-    
-}
+    .main-container * {
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+    }
 
-.text-big-blue {
-    text-indent: 0;
-    color: #378db2;
-    font-weight: 700
-}
+    .main-container .header h1 {
+        font-weight: lighter;
+        font-size: 28px;
+        line-height: 32px;
+        margin-bottom: 11px;
+    }
 
-.text-block {
-    width: 710px;
-    
-    line-height: 19px;
-}
+    .main-container .prices-conditions {
+        font-size: 16px;
+        margin-bottom: -3px;
+    }
 
-.prices-conditions {
-    font-size: 16px;
-    text-indent: 0;
-}
+        .main-container .prices-conditions p {
+            font-size: 16px;
+            margin-bottom: 11px;
+        }
 
-.discounted-price {
-    text-decoration: line-through
-}
+            .main-container .prices-conditions p .text-big-blue {
+                color: #378db2;
+                font-weight: 700;
+            }
+
+            .main-container .prices-conditions p .discounted-price {
+                text-decoration: line-through
+            }
+
+    .main-container .text-block {
+        word-spacing: 45%;
+        line-height: 22px;
+        text-indent: 16px;
+    }
+
+        .main-container .text-block p:not(:last-child) {
+            margin-bottom: 10px;
+        }
+
