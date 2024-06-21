@@ -2,8 +2,6 @@
     box-sizing: border-box;
 }
 
-
-
 .main-container {
     font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
     font-size: 15px;
@@ -46,6 +44,7 @@
             }
 
     .main-container .text-block {
+        text-align: justify;
         word-spacing: 45%;
         line-height: 22px;
         text-indent: 16px;
@@ -54,4 +53,3 @@
         .main-container .text-block p:not(:last-child) {
             margin-bottom: 10px;
         }
-
