@@ -33,7 +33,7 @@
 
     function getEvenNumbersSquaresFromArray(array) {
         let evenNumbersSquares = array.filter(x => x % 2 === 0).map(x => x * x);
-        
+
         return evenNumbersSquares;
     }
 
