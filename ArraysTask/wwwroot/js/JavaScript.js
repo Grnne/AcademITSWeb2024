@@ -1,6 +1,4 @@
 ﻿(function () {
-    const array1 = [1, 2, 3, 4, 5, 6, 8];
-
     function sortArrayDescending(array) {
         array.sort((e1, e2) => e2 - e1);
     }
@@ -37,6 +35,7 @@
         return evenNumbersSquares;
     }
 
+    const array1 = [1, 2, 3, 4, 5, 6, 8];
     console.log("Отсортируем массив по убыванию");
     console.log(sortArrayDescending(array1));
 
