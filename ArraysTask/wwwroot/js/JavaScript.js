@@ -1,57 +1,39 @@
 ﻿(function () {
-    function sortArrayDescending(array) {
-        array.sort((e1, e2) => e2 - e1);
-    }
+    const sortNumbersArrayDescending = (numbersArray) => numbersArray.sort((e1, e2) => e2 - e1);
 
-    function getFirst5Items(array) {
-        return array.slice(0, 5);
-    }
+    const getFirstItems = (numbersArray, amount) => numbersArray.slice(0, amount);
 
-    function getLast5Items(array) {
-        let lastIndex = array.length;
+    const getLastItems = (numbersArray, amount) => numbersArray.slice(-amount);
 
-        return array.slice(lastIndex - 5, lastIndex);
-    }
+    const getEvenNumbersSum = (numbersArray) => numbersArray.reduce((sum, currentValue) =>
+        currentValue % 2 === 0 ? sum + currentValue : sum);
 
-    function getEvenNumbersSum(array) {
-        let even = array.filter(x => x % 2 === 0);
+    //const getEvenNumbersSum = (array) => array.filter(x => x % 2 === 0).reduce((sum, x) => sum + x, 0); первый вариант лучше?
 
-        return even.reduce((sum, x) => sum + x, 0);
-    }
+    const create1To100Array = () => Array.from({ length: 100 }, (_, i) => i + 1);
 
-    function make1To100Array() {
-        let array = []; // С чего он конст хочет сделать, элементы массива же должны быть частью массива?
+    const getEvenNumbersSquares = (array) => array.filter(x => x % 2 === 0)
+        .map(x => x * x);
 
-        for (let i = 1; i <= 100; i++) {
-            array.push(i);
-        }
+    const sampleArray = [1, 2, 3, 4, 5, 6, 8];
 
-        return array;
-    }
+    console.log("Отсортируем массив по убыванию:");
+    sortNumbersArrayDescending(sampleArray);
+    console.log(sampleArray.join(", "));
 
-    function getEvenNumbersSquaresFromArray(array) {
-        let evenNumbersSquares = array.filter(x => x % 2 === 0).map(x => x * x);
+    console.log("Получим первые 5 элементов массива:");
+    console.log(getFirstItems(sampleArray, 5).join(", "));
 
-        return evenNumbersSquares;
-    }
+    console.log("Получим последние 5 элементов массива:");
+    console.log(getLastItems(sampleArray, 5).join(", "));
 
-    const array1 = [1, 2, 3, 4, 5, 6, 8];
-    console.log("Отсортируем массив по убыванию");
-    console.log(sortArrayDescending(array1));
+    console.log("Получим сумму четных чисел массива:");
+    console.log(getEvenNumbersSum(sampleArray));
 
-    console.log("Получим первые 5 элементов массива");
-    console.log(getFirst5Items(array1));
+    const array1To100 = create1To100Array();
+    console.log("Создадим массив чисел от 1 до 100:");
+    console.log(array1To100.join(", "));
 
-    console.log("Получим последние 5 элементов массива");
-    console.log(getLast5Items(array1));
-
-    console.log("Получим сумму четных чисел массива");
-    console.log(getEvenNumbersSum(array1));
-
-    let array2 = make1To100Array();
-    console.log("Создадим массив чисел от 1 до 100");
-    console.log(array2);
-
-    console.log("Отобразим квадраты четных чисел в этом массиве");
-    console.log(getEvenNumbersSquaresFromArray(array2));
+    console.log("Отобразим квадраты четных чисел в этом массиве:");
+    console.log(getEvenNumbersSquares(array1To100).join(", "));
 })();
