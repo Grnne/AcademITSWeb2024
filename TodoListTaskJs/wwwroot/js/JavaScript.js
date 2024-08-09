@@ -33,7 +33,7 @@
 
                     newTodo.querySelector(".edit-button").addEventListener("click", function () {
                         newTodo.innerHTML = `<input type="text" class="edit-todo-item-text-field"></input>
-                                             <div class="error-message">Строка не должна быть пустой!</div>
+                                             <div class="error-message">Укажите текст</div>
                                              <button class="save-button" type="button"> Сохранить</button>
                                              <button class="cancel-button" type="button"> Отменить</button>`;
 
