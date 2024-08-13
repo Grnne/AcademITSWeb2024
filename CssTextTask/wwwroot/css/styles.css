@@ -1,0 +1,66 @@
+﻿/* Global Styles */
+* {
+    box-sizing: border-box;
+}
+
+/* Main Container */
+.main-container {
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    color: #676565;
+    background-color: #feeed6;
+    max-width: 747px;
+    margin: 0;
+    padding: 10px 14px;
+}
+
+    .main-container h1,
+    .prices-conditions p,
+    .text-block p {
+        margin: 0;
+        padding: 0;
+    }
+
+    .main-container h1 {
+        font-weight: lighter;
+        font-size: 28px;
+        line-height: 32px;
+        margin-bottom: 11px;
+    }
+
+.prices-conditions {
+    font-size: 16px;
+}
+
+    .prices-conditions p {
+        font-size: 16px;
+        margin-bottom: 11px;
+    }
+
+        .prices-conditions p .text-big-blue {
+            color: #378db2;
+            font-weight: 700;
+        }
+
+        .prices-conditions p .crossed-price {
+            text-decoration: line-through;
+        }
+
+        .prices-conditions p:last-child {
+            margin-bottom: 8px;
+        }
+
+.text-block {
+    text-align: justify;
+    line-height: 22px;
+    text-indent: 16px;
+    max-width: 97%;
+}
+
+    .text-block p {
+        margin-bottom: 10px;
+    }
+
+        .text-block p:last-child {
+            margin-bottom: 0;
+        }
