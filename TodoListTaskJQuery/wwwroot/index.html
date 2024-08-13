@@ -2,15 +2,18 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <link href="css/Normalize.css" rel="stylesheet" />
-    <link href="css/StyleSheet.css" rel="stylesheet" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <script defer src="node_modules/jquery/dist/jquery.js"></script>
     <script defer src="js/JavaScript.js"></script>
+    
+
+    <link href="css/StyleSheet.css" rel="stylesheet" />
     <title>TODO list</title>
 </head>
 <body>
     <div class="todo-page-container">
-        <h1>TODO list</h1>
+        <h1>TODO list with JQuery</h1>
 
         <form class="add-todo-form" id="add-todo-form">
             <div>
@@ -18,7 +21,7 @@
                 <div class="error-message">Укажите текст</div>
             </div>
 
-            <button class="add-button" id="add-button">бНОПНЯ</button>
+            <button class="add-button" id="add-button">Добавить</button>
         </form>
 
         <ul class="todo-list" id="todo-list"></ul>
