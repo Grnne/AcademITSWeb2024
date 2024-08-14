@@ -8,8 +8,6 @@
     const getEvenNumbersSum = (numbersArray) => numbersArray.reduce((sum, currentValue) =>
         currentValue % 2 === 0 ? sum + currentValue : sum);
 
-    //const getEvenNumbersSum = (array) => array.filter(x => x % 2 === 0).reduce((sum, x) => sum + x, 0); первый вариант лучше?
-
     const create1To100Array = () => Array.from({ length: 100 }, (_, i) => i + 1);
 
     const getEvenNumbersSquares = (array) => array.filter(x => x % 2 === 0)

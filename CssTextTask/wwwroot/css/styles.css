@@ -1,9 +1,7 @@
-﻿/* Global Styles */
-* {
+﻿* {
     box-sizing: border-box;
 }
 
-/* Main Container */
 .main-container {
     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
     font-size: 15px;
