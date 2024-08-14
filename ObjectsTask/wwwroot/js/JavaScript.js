@@ -34,27 +34,25 @@
         }
     ];
 
-    const getCountriesWithMaxCities = (countries) =>
-        countries.filter(country => country.cities.length === countries.reduce((maxCount, country) =>
-            Math.max(maxCount, country.cities.length), 0));
+    function getCountriesWithMaxCitiesAmount(countries) {
+        const maxCountriesAmount = countries.reduce((maxCount, country) =>
+            Math.max(maxCount, country.cities.length), 0);
 
-    const getPopulationsByCountry = (countries) => {
+        return countries.filter(country => country.cities.length === maxCountriesAmount);
+    }
+
+    function getPopulationsByCountry(countries) {
         const populationsByCountry = {};
 
         countries.forEach(country => {
-            if (country.cities && country.cities.length > 0) {
-                const countryPopulation = country.cities.reduce((sum, city) => sum + city.population, 0);
-                populationsByCountry[country.name] = countryPopulation;
-            } else {
-                populationsByCountry[country.name] = 0;
-            }
+            populationsByCountry[country.name] = country.cities.reduce((sum, city) => sum + city.population, 0);
         });
 
         return populationsByCountry;
     }
 
     console.log("Print countries with maximum cities amount:");
-    console.log(getCountriesWithMaxCities(countries).map(x => x.name).join(", "));
+    console.log(getCountriesWithMaxCitiesAmount(countries).map(c => c.name).join(", "));
     console.log();
 
     const populationsByCountry = getPopulationsByCountry(countries);
