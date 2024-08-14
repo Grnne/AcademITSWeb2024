@@ -1,17 +1,35 @@
 ﻿(function () {
-    const sortNumbersArrayDescending = (numbersArray) => numbersArray.sort((e1, e2) => e2 - e1);
+    function sortNumbersArrayDescending(numbersArray) {
+        return numbersArray.sort((e1, e2) => e2 - e1);
+    }
 
-    const getFirstItems = (numbersArray, amount) => numbersArray.slice(0, amount);
+    function getFirstItems(array, amount) {
+        return array.slice(0, amount);
+    }
 
-    const getLastItems = (numbersArray, amount) => numbersArray.slice(-amount);
+    function getLastItems(array, amount) {
+        return array.slice(-amount);
+    }
 
-    const getEvenNumbersSum = (numbersArray) => numbersArray.reduce((sum, currentValue) =>
-        currentValue % 2 === 0 ? sum + currentValue : sum);
+    function getEvenNumbersSum(numbersArray) {
+        return numbersArray.reduce((sum, currentNumber) =>
+            currentNumber % 2 === 0 ? sum + currentNumber : sum, 0);
+    }
 
-    const create1To100Array = () => Array.from({ length: 100 }, (_, i) => i + 1);
+    function create1To100Array() {
+        const result = [];
 
-    const getEvenNumbersSquares = (array) => array.filter(x => x % 2 === 0)
-        .map(x => x * x);
+        for (let i = 1; i <= 100; i++) {
+            result.push(i);
+        }
+
+        return result;
+    }
+
+    function getEvenNumbersSquares(array) {
+        return array.filter(x => x % 2 === 0)
+            .map(x => x * x);
+    }
 
     const sampleArray = [1, 2, 3, 4, 5, 6, 8];
 
