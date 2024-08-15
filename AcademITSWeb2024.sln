@@ -31,8 +31,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TemperatureTaskJs", "Temper
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "bootstrap_test", "bootstrap_test\bootstrap_test.csproj", "{77C5ED26-3E97-4B6E-A4D0-474627A68AE4}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TodoListTaskJquery", "TodoListTaskJquery\TodoListTaskJquery.csproj", "{3F37764C-412F-44AD-9087-71C7FF59089C}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -91,10 +89,6 @@ Global
 		{77C5ED26-3E97-4B6E-A4D0-474627A68AE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{77C5ED26-3E97-4B6E-A4D0-474627A68AE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{77C5ED26-3E97-4B6E-A4D0-474627A68AE4}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3F37764C-412F-44AD-9087-71C7FF59089C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3F37764C-412F-44AD-9087-71C7FF59089C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3F37764C-412F-44AD-9087-71C7FF59089C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3F37764C-412F-44AD-9087-71C7FF59089C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
