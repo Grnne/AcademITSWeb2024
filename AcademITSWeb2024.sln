@@ -31,7 +31,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TemperatureTaskJs", "Temper
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "bootstrap_test", "bootstrap_test\bootstrap_test.csproj", "{77C5ED26-3E97-4B6E-A4D0-474627A68AE4}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TodoListTaskJquery", "TodoListTaskJquery\TodoListTaskJquery.csproj", "{6A595943-8611-4ED6-A0A8-53EEEE954C7F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TodoListTaskJQuery", "TodoListTaskJquery\TodoListTaskJQuery.csproj", "{6A595943-8611-4ED6-A0A8-53EEEE954C7F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

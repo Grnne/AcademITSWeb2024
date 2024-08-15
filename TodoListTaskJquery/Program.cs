@@ -1,6 +1,6 @@
 using Microsoft.Extensions.FileProviders;
 
-namespace TodoListTaskJquery;
+namespace TodoListTaskJQuery;
 
 public class Program
 {
