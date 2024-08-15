@@ -377,3 +377,5 @@ FodyWeavers.xsd
 /WebApplication5
 /NetFrameworkWeb
 /WebApplication7
+/bootstrap_test/bootstrap_test.csproj
+/bootstrap_test

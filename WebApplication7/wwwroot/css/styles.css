@@ -1,0 +1,14 @@
+﻿* {
+    box-sizing: border-box;
+}
+
+.error-message {
+    color: #f00 !important; 
+    font-size: 12px;
+    display: none;
+    background: inherit;
+}
+
+.invalid ~ .error-message {
+    display: block;
+}
