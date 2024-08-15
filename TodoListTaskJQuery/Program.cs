@@ -1,6 +1,6 @@
 using Microsoft.Extensions.FileProviders;
 
-namespace TodoListTaskJQuery;
+namespace TodoListTaskJquery;
 
 public class Program
 {
@@ -12,12 +12,12 @@ public class Program
         app.UseDefaultFiles();
         app.UseStaticFiles();
 
-
-        app.UseStaticFiles(new StaticFileOptions
+        app.UseFileServer(new FileServerOptions
         {
             FileProvider = new PhysicalFileProvider(
                 Path.Combine(builder.Environment.ContentRootPath, "node_modules")),
-            RequestPath = "/node_modules"
+            RequestPath = "/node_modules",
+            EnableDirectoryBrowsing = true
         });
 
         app.Run();

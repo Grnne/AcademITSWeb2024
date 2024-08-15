@@ -1,30 +1,32 @@
-﻿<!DOCTYPE HTML>
+﻿<!DOCTYPE html>
 <html>
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <script defer src="node_modules/@popperjs/core/dist/umd/popper-base.js"></script>
     <script defer src="node_modules/jquery/dist/jquery.js"></script>
-    <script defer src="js/JavaScript.js"></script>
-    
+    <script defer src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
-    <link href="css/StyleSheet.css" rel="stylesheet" />
+    <script defer src="js/javascript.js"></script>
+    <link href="css/styles.css" rel="stylesheet">
     <title>TODO list</title>
 </head>
 <body>
-    <div class="todo-page-container">
-        <h1>TODO list with JQuery</h1>
-
-        <form class="add-todo-form" id="add-todo-form">
-            <div>
-                <input id="new-todo-text-field" class="todo-text-field" type="text">
-                <div class="error-message">Укажите текст</div>
-            </div>
-
-            <button class="add-button" id="add-button">Добавить</button>
-        </form>
-
-        <ul class="todo-list" id="todo-list"></ul>
+    <div class="container mt-5">
+        <h1 class="text-center">TODO List</h1>
+        <main>
+            <form class="add-todo-form" id="add-todo-form">
+                <div class="form-group">
+                    <label for="new-todo-text-field">New TODO</label>
+                    <input id="new-todo-text-field" class="form-control" type="text" placeholder="Enter your todo item">
+                    <div class="error-message">Укажите текст</div>
+                </div>
+                <button class="btn btn-primary" id="add-button" type="submit">Добавить</button>
+            </form>
+            <ul class="list-group mt-4" id="todo-list"></ul>
+        </main>
     </div>
 </body>
 </html>
