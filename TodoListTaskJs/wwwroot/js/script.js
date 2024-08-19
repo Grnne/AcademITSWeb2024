@@ -39,21 +39,19 @@
             let todoItemTextEdit = editTodo.querySelector(".todo-item-text-edit");
             todoItemTextEdit.value = initialText;
 
-            editTodo.querySelector(".save-button").addEventListener("click",
-                function () {
-                    const editText = editTodo.querySelector(".todo-item-text-edit").value;
-                    todoItemTextEdit.classList.remove("invalid");
+            editTodo.querySelector(".save-button").addEventListener("click", () => {
+                const editText = editTodo.querySelector(".todo-item-text-edit").value;
+                todoItemTextEdit.classList.remove("invalid");
 
-                    if (editText.length === 0) {
-                        todoItemTextEdit.classList.add("invalid");
-                        return;
-                    }
+                if (editText.length === 0) {
+                    todoItemTextEdit.classList.add("invalid");
+                    return;
+                }
 
-                    createTodoItemView(editTodo, editText);
-                });
+                createTodoItemView(editTodo, editText);
+            });
 
-            editTodo.querySelector(".cancel-button").addEventListener("click",
-                function () {
+            editTodo.querySelector(".cancel-button").addEventListener("click", () => {
                     createTodoItemView(editTodo, initialText);
                 });
         }
@@ -67,13 +65,11 @@
 
             todoItem.querySelector(".todo-item-text").textContent = itemText;
 
-            todoItem.querySelector(".delete-button").addEventListener("click",
-                function () {
+            todoItem.querySelector(".delete-button").addEventListener("click", () => {
                     todoItem.remove();
                 });
 
-            todoItem.querySelector(".edit-button").addEventListener("click",
-                function () {
+            todoItem.querySelector(".edit-button").addEventListener("click", () => {
                     editTodoItem(todoItem);
                 });
         }
