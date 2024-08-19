@@ -33,6 +33,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "bootstrap_test", "bootstrap
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TodoListTaskJQuery", "TodoListTaskJquery\TodoListTaskJQuery.csproj", "{6A595943-8611-4ED6-A0A8-53EEEE954C7F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "testingVue", "testingVue\testingVue.csproj", "{A681ECE5-4504-4681-A346-6EF67D0610CF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -95,6 +97,10 @@ Global
 		{6A595943-8611-4ED6-A0A8-53EEEE954C7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6A595943-8611-4ED6-A0A8-53EEEE954C7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6A595943-8611-4ED6-A0A8-53EEEE954C7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A681ECE5-4504-4681-A346-6EF67D0610CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A681ECE5-4504-4681-A346-6EF67D0610CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A681ECE5-4504-4681-A346-6EF67D0610CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A681ECE5-4504-4681-A346-6EF67D0610CF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -104,6 +110,7 @@ Global
 		{00AE722A-21FA-4457-88C6-EDFBBFD3CF43} = {49C50457-E42C-4363-BA72-FC50B77293B2}
 		{9AB366D4-B055-48A9-B821-0A00C00CF600} = {49C50457-E42C-4363-BA72-FC50B77293B2}
 		{77C5ED26-3E97-4B6E-A4D0-474627A68AE4} = {49C50457-E42C-4363-BA72-FC50B77293B2}
+		{A681ECE5-4504-4681-A346-6EF67D0610CF} = {49C50457-E42C-4363-BA72-FC50B77293B2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B5084576-D326-4FDA-9534-684EDCE38B68}

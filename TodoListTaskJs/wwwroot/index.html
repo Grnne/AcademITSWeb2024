@@ -1,27 +1,26 @@
 ﻿<!DOCTYPE html>
-<html>
 <head>
     <meta charset="UTF-8">
-    <link href="css/normalize.css" rel="stylesheet" />
-    <link href="css/styles.css" rel="stylesheet" />
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script defer src="js/javascript.js"></script>
-    <title>TODO list</title>
+    <script defer src="js/script.js"></script>
+    <title>TODO List</title>
 </head>
 <body>
-    <div class="todo-page-container">
-        <h1>TODO list</h1>
+    <div class="todo-container">
+        <h1 class="todo-title">TODO List</h1>
 
-        <form class="add-todo-form" id="add-todo-form">
-            <div>
-                <input id="new-todo-text-field" class="todo-text-field" type="text">
-                <div class="error-message">Укажите текст</div>
+        <form id="todo-form" class="todo-form">
+            <div class="input-container" id="input-container">
+                <input id="todo-input" class="todo-input" type="text" placeholder="Enter a new task">
+                <div class="error-message">Please specify a task</div>
             </div>
 
-            <button class="add-button" id="add-button" type="submit">Добавить</button>
+            <button class="add-todo-button" id="add-todo-button" type="submit">Add Task</button>
+
         </form>
 
-        <ul class="todo-list" id="todo-list"></ul>
+        <ul class="todo-items" id="todo-items"></ul>
     </div>
 </body>
-</html>
