@@ -30,17 +30,29 @@
             const initialText = editTodo.querySelector(".todo-item-text").textContent;
 
             editTodo.innerHTML = `<input class="todo-item-text-edit"></span>
-                                  <div class="error-message">Please specify a task</div>
-                                  <div class="list-item-container">
-                                  <button class="save-button button" type="button"> Save</button>
-                                  <button class="cancel-button button" type="button"> Cancel</button>
-                                  </div>`;
+                          <div class="error-message">Please specify a task</div>
+                          <div class="list-item-container">
+                          <button class="save-button button" type="button"> Save</button>
+                          <button class="cancel-button button" type="button"> Cancel</button>
+                          </div>`;
 
-            let todoItemTextEdit = editTodo.querySelector(".todo-item-text-edit");
+            const todoItemTextEdit = editTodo.querySelector(".todo-item-text-edit");
             todoItemTextEdit.value = initialText;
 
-            editTodo.querySelector(".save-button").addEventListener("click", () => {
-                const editText = editTodo.querySelector(".todo-item-text-edit").value;
+            editTodo.querySelector(".save-button").addEventListener("click", handleSave);
+
+            todoItemTextEdit.addEventListener("keydown", (event) => {
+                if (event.key === "Enter") {
+                    handleSave();
+                }
+            });
+
+            editTodo.querySelector(".cancel-button").addEventListener("click", () => {
+                createTodoItemView(editTodo, initialText);
+            });
+
+            function handleSave() {
+                const editText = todoItemTextEdit.value;
                 todoItemTextEdit.classList.remove("invalid");
 
                 if (editText.length === 0) {
@@ -49,11 +61,7 @@
                 }
 
                 createTodoItemView(editTodo, editText);
-            });
-
-            editTodo.querySelector(".cancel-button").addEventListener("click", () => {
-                    createTodoItemView(editTodo, initialText);
-                });
+            };
         }
 
         function createTodoItemView(todoItem, itemText) {
