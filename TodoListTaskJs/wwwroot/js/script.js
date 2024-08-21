@@ -29,12 +29,14 @@
         function editTodoItem(editTodo) {
             const initialText = editTodo.querySelector(".todo-item-text").textContent;
 
-            editTodo.innerHTML = `<input class="todo-item-text-edit"></span>
-                          <div class="error-message">Please specify a task</div>
-                          <div class="list-item-container">
-                          <button class="save-button button" type="button"> Save</button>
-                          <button class="cancel-button button" type="button"> Cancel</button>
-                          </div>`;
+            editTodo.innerHTML = `<div class="list-item-input-container">
+                                    <input class="todo-item-text-edit"></span>
+                                    <div class="error-message">Please specify a task</div>
+                                  </div>
+                                  <div class="buttons-container">
+                                    <button class="save-button button" type="button"> Save</button>
+                                    <button class="cancel-button button" type="button"> Cancel</button>
+                                  </div>`;
 
             const todoItemTextEdit = editTodo.querySelector(".todo-item-text-edit");
             todoItemTextEdit.value = initialText;
@@ -67,18 +69,18 @@
         function createTodoItemView(todoItem, itemText) {
             todoItem.innerHTML = `<span class="todo-item-text"></span>
                                   <div class="list-item-container">
-                                  <button class="delete-button button" type="button"> Delete</button>
-                                  <button class="edit-button button" type="button"> Edit</button>
+                                    <button class="delete-button button" type="button"> Delete</button>
+                                    <button class="edit-button button" type="button"> Edit</button>
                                   </div>`;
 
             todoItem.querySelector(".todo-item-text").textContent = itemText;
 
             todoItem.querySelector(".delete-button").addEventListener("click", () => {
-                    todoItem.remove();
-                });
+                todoItem.remove();
+            });
 
             todoItem.querySelector(".edit-button").addEventListener("click", () => {
-                    editTodoItem(todoItem);
-                });
+                editTodoItem(todoItem);
+            });
         }
     });
