@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script defer src="node_modules/@popperjs/core/dist/umd/popper-base.js"></script>
-    <script defer src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
-    <script defer src="node_modules/vue/dist/vue.global.js"></script>
-    <script defer src="node_modules/jquery/dist/jquery.js"></script>
+    <script defer src="../node_modules/@popperjs/core/dist/umd/popper-base.js"></script>
+    <script defer src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script defer src="../node_modules/vue/dist/vue.global.js"></script>
+    <script defer src="../node_modules/jquery/dist/jquery.js"></script>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
     <script defer src="js/script.js"></script>
@@ -14,9 +14,11 @@
 </head>
 <body>
     <div id="app" class="container">
-        <h1>TODO list</h1>
+        <h1 v-text="ads">TODO list</h1>
 
         <todo-list></todo-list>
     </div>
+
+
 </body>
 </html>
